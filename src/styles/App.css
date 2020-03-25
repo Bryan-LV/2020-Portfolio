@@ -295,7 +295,11 @@ header{
 }
 
 .work__subtitle--margin{
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+.project {
+  margin-bottom: 60px;
 }
 
 .project__img-container{
@@ -322,6 +326,7 @@ header{
   border: 1px solid rgba(0,0,0,0.4);
   border-radius: 3px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .btn--white-text{
@@ -388,7 +393,7 @@ header{
   .project{
     display: flex;
     width:95%;
-    margin: auto;
+    margin: 60px auto;
     flex-flow:row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -403,7 +408,7 @@ header{
   .project__group{
     flex:1;
     text-align: left;
-    padding-left: 12px;
+    padding-left: 20px;
   }
 
   .project__btns{
